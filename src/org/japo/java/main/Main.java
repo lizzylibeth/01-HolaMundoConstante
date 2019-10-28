@@ -23,16 +23,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //Constante
-            final String SALUDO_CONSTANTE = "Hola Mundo";
+        //Constantes
+        final String SALUDO_CONSTANTE = "Hola Mundo";
 
-        //1º MANERA
-            System.out.println("- " + SALUDO_CONSTANTE);    //System es una clase,out es un recurso de la clase System. el punto indica el recurso.  
+        //Mensaje
+        System.out.printf("%s%n", SALUDO_CONSTANTE);
 
-        //2º MANERA
-            System.out.printf("- %s%n",SALUDO_CONSTANTE);
-        
-        
     }//main
 
 }//class
